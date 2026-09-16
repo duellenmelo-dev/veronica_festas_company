@@ -6,6 +6,7 @@
   --brown-dark: #3d3632;
   --yellow-light: #c6a46c;
   --pink-dark: #b78f82;
+  --orange-dark: #d37252;
 }
 
 html {
@@ -56,4 +57,138 @@ a {
 a:hover {
   color: var(--pink-dark);
   transition: 0.5s;
+}
+
+.section_hero {
+  background-color: var(--beg-light);
+  padding: 2rem 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 1rem;
+}
+
+.hero_slogan {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.hero_slogan_info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+.hero_slogan_top {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.hero_slogan_details {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  padding-right: 1rem;
+}
+
+.hero_slogan_details::before,
+.hero_slogan_details::after {
+  content: "";
+  height: 1px;
+  background-color: var(--pink-dark);
+  flex: 1;
+}
+
+.hero_slogan_years {
+  font-size: 7rem;
+  color: var(--pink-dark);
+  font-weight: bold;
+}
+
+.hero_slogan_main {
+  font-size: 5rem;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.hero_box {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero_box img {
+  width: 8rem;
+}
+
+.hero_title {
+  font-size: 3rem;
+}
+
+.button_hero {
+  border-radius: 20px;
+  width: 75%;
+  padding: 0.7rem;
+  background-color: var(--pink-dark);
+  color: var(--offwhite);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.button_hero:hover {
+  background-color: var(--orange-dark);
+}
+
+.hero_right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.hero_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-bottom: 4rem;
+  transition: all 1s ease-in;
+}
+
+.hero_card:hover {
+  transform: scale(1.05);
+}
+
+.hero_card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hero_card_content {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 2rem;
+  width: 95%;
+  background-color: var(--offwhite);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.hero_card_content img {
+  width: 5rem;
+}
+
+.hero_card_info {
+  position: absolute;
+  bottom: 0;
+}
+
+.hero_card_content span {
+  font-size: 1.2rem;
 }
