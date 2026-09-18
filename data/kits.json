@@ -1,0 +1,104 @@
+[
+  {
+    "image": "assets/infantil1.jpeg",
+    "titulo": "Festa Infantil",
+    "descricao": "Kits encantadores para criar uma festa cheia de alegria, cores e personalidade.",
+    "categoria": "infantil"
+  },
+  {
+    "image": "assets/casamento1.jpeg",
+    "titulo": "Casamento",
+    "descricao": "Uma decoração delicada para celebrar o amor e o início de uma nova jornada.",
+    "categoria": "casamento"
+  },
+  {
+    "image": "assets/infantil2.jpeg",
+    "titulo": "Festa Infantil",
+    "descricao": "Cada detalhe pensado para celebrar mais um ano de descobertas e sorrisos.",
+    "categoria": "infantil"
+  },
+  {
+    "image": "assets/casamento2.jpeg",
+    "titulo": "Casamento",
+    "descricao": "Composições elegantes para tornar o grande dia ainda mais inesquecível.",
+    "categoria": "casamento"
+  },
+  {
+    "image": "assets/infantil3.jpeg",
+    "titulo": "Festa Infantil",
+    "descricao": "Uma composição encantadora para celebrar cada fase da infância.",
+    "categoria": "infantil"
+  },
+  {
+    "image": "assets/casamento3.jpeg",
+    "titulo": "Casamento",
+    "descricao": "Detalhes cuidadosamente escolhidos para deixar a celebração ainda mais sofisticada.",
+    "categoria": "casamento"
+  },
+  {
+    "image": "assets/infantil4.jpeg",
+    "titulo": "Festa Infantil",
+    "descricao": "Decorações que levam criatividade, carinho e encanto para a festa dos pequenos.",
+    "categoria": "infantil"
+  },
+  {
+    "image": "assets/casamento4.jpeg",
+    "titulo": "Casamento",
+    "descricao": "Uma decoração especial para acompanhar momentos que ficam na memória.",
+    "categoria": "casamento"
+  },
+  {
+    "image": "assets/infantil5.jpeg",
+    "titulo": "Festa Infantil",
+    "descricao": "Uma decoração especial para comemorar o crescimento e as novas aventuras.",
+    "categoria": "infantil"
+  },
+  {
+    "image": "assets/casamento5.jpeg",
+    "titulo": "Casamento",
+    "descricao": "Uma decoração criada para refletir a personalidade e o amor do casal.",
+    "categoria": "casamento"
+  },
+  {
+    "image": "assets/infantil6.jpeg",
+    "titulo": "Festa Infantil",
+    "descricao": "Decoração especial para transformar o aniversário em um momento inesquecível.",
+    "categoria": "infantil"
+  },
+  {
+    "image": "assets/casamento6.jpeg",
+    "titulo": "Casamento",
+    "descricao": "Kits de decoração para transformar cada espaço em um cenário inesquecível.",
+    "categoria": "casamento"
+  },
+  {
+    "image": "assets/festa-infantil.jpeg",
+    "titulo": "Festa Infantil",
+    "descricao": "Uma decoração alegre e divertida para celebrar momentos especiais.",
+    "categoria": "infantil"
+  },
+  {
+    "image": "assets/casamento.jpeg",
+    "titulo": "Casamento",
+    "descricao": "Decorações elegantes para celebrar o seu grande dia.",
+    "categoria": "casamento"
+  },
+  {
+    "image": "assets/outros1.jpeg",
+    "titulo": "Chá de Revelação",
+    "descricao": "Um cenário especial para transformar a gratidão em uma linda celebração.",
+    "categoria": "outros"
+  },
+  {
+    "image": "assets/outros2.jpeg",
+    "titulo": "Celebração de Gratidão",
+    "descricao": "Decorações pensadas para tornar encontros especiais ainda mais significativos.",
+    "categoria": "outros"
+  },
+  {
+    "image": "assets/outros3.jpeg",
+    "titulo": "Momentos Especiais",
+    "descricao": "Um ambiente preparado para compartilhar carinho, alegria e bons momentos.",
+    "categoria": "outros"
+  }
+]

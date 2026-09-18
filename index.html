@@ -10,15 +10,28 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Verônica Festas</title>
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Verônica Festas Locações" />
+    <meta
+      property="og:description"
+      content="Confira nossos cursos e serviços de festas!"
+    />
+    <meta property="og:image" content="/assets/logo-whats.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+
+    <title>Verônica Festas Locações</title>
   </head>
   <body>
     <header>
       <div class="cabecalho container">
         <img src="assets/logo.png" alt="logo marca" />
         <nav>
-          <a href="#">Início</a>
-          <a href="#">Kits</a>
+          <a id="link-init" href="#">Início</a>
+          <a id="link-kits" href="#">Kits</a>
           <a href="#">Sobre nós</a>
           <a href="#">Depoimentos</a>
           <a href="#">Localização</a>
@@ -27,7 +40,20 @@
       </div>
     </header>
     <main>
-      <section class="section_hero">
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        id="whatsapp-link"
+        aria-label="Falar pelo WhatsApp"
+      >
+        <img
+          src="assets/whatsapp-brands-solid.png"
+          alt="icone whatsapp"
+          id="whatsapp-icon"
+        />
+      </a>
+      <section id="section-explore-hero" class="section_hero">
         <div class="hero container">
           <articicle class="hero_slogan">
             <div class="hero_slogan_info">
@@ -52,7 +78,9 @@
               Você aluga o kit e o frete e a montagem ficam por sua conta,
               tornando tudo mais prático e econômico.
             </span>
-            <button class="button_hero">conheça nossos kits &#8594;</button>
+            <button id="btn_explore_kits" class="button_hero">
+              conheça nossos kits &#8594;
+            </button>
           </articicle>
 
           <articicle class="hero_right">
@@ -97,6 +125,35 @@
           </articicle>
         </div>
       </section>
+
+      <section id="section-explore-kits" class="section_products">
+        <div class="section_products_container container">
+          <div class="section_products_details">
+            <span class="section_products_top">nossos kits</span>
+          </div>
+          <div class="section_products_title">
+            <h2>Escolha o kit ideal para sua celebração</h2>
+          </div>
+          <div class="section_products_paragraph">
+            <p>
+              Encontre a decoração ideal para tornar seu momento ainda mais
+              especial.
+            </p>
+          </div>
+          <div class="kits-filters">
+            <button class="filter-button" data-filter="todos">Todos</button>
+            <button class="filter-button" data-filter="infantil">
+              Festas Infantis
+            </button>
+            <button class="filter-button" data-filter="casamento">
+              Casamentos
+            </button>
+            <button class="filter-button" data-filter="outros">Outros</button>
+          </div>
+          <div id="listKits" class="cards"></div>
+        </div>
+      </section>
     </main>
+    <script type="module" src="js/script.js"></script>
   </body>
 </html>
