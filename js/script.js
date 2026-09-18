@@ -11,6 +11,9 @@ const sectionExploreKits = document.querySelector("#section-explore-kits");
 const linkInit = document.querySelector("#link-init");
 const sectionExploreHero = document.querySelector("#section-explore-hero");
 
+const linkAbout = document.querySelector("#link-about");
+const sectionExploreAbout = document.querySelector("#section-explore-about");
+
 const btnExploreKits = document.querySelector("#btn_explore_kits");
 
 btnExploreKits.addEventListener("click", () => exploreKits(sectionExploreKits));
@@ -37,6 +40,11 @@ linkKits.addEventListener("click", (event) => {
 linkInit.addEventListener("click", (event) => {
   event.preventDefault();
   sectionExploreHero.scrollIntoView({ behavior: "smooth" });
+});
+
+linkAbout.addEventListener("click", (event) => {
+  event.preventDefault();
+  sectionExploreAbout.scrollIntoView({ behavior: "smooth" });
 });
 
 document.addEventListener("DOMContentLoaded", () => {

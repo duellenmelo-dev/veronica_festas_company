@@ -88,7 +88,7 @@ a:hover {
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 1rem;
-  padding: 2rem 0;
+  padding: 5rem 0 1rem 0;
 }
 
 .hero_slogan {
@@ -235,6 +235,7 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 3.5rem;
+  color: var(--pink-dark);
 }
 
 .section_products_details::before,
@@ -365,4 +366,84 @@ a:hover {
 .filter-button.active {
   background-color: var(--pink-dark);
   color: var(--offwhite);
+}
+
+.section_about {
+  background-color: var(--beg-light);
+  padding: 4rem 0;
+}
+
+.section_about_container {
+  display: flex;
+  gap: 2rem;
+}
+
+.section_about_left img {
+  width: 55rem;
+  border-radius: 10px;
+}
+
+.section_about_right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section_about_title {
+  font-size: 2.5rem;
+}
+
+.section_about_title h2 {
+  font-weight: 600;
+}
+
+.section_about_title span {
+  color: var(--pink-dark);
+}
+.section_about_right_top {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.section_about_right_details {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  padding-right: 1rem;
+  color: var(--pink-dark);
+}
+
+.section_about_right_details::after {
+  content: "";
+  height: 1px;
+  background-color: var(--pink-dark);
+  flex: 1;
+}
+
+.section_about_paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  line-height: 1.5;
+}
+
+.section_about_paragraph span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--pink-dark);
+  border-left: 2px solid var(--pink-dark);
+  padding-left: 2rem;
+}
+
+.section_about_paragraph_signature_container {
+  line-height: 0.8;
+}
+
+.section_about_paragraph_signature {
+  font-size: 7rem;
+  color: var(--pink-dark);
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
