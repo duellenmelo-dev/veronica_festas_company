@@ -1,5 +1,7 @@
 import { exploreKits, filterSearchKits, loadKits } from "./modules/kits.js";
 import { initWhatsAppButton } from "./modules/ui.js";
+import { renderCompanyMap } from "./modules/map.js";
+import { calculateRoute } from "./modules/route.js";
 
 const filterButtons = document.querySelectorAll(".filter-button");
 
@@ -14,7 +16,14 @@ const sectionExploreHero = document.querySelector("#section-explore-hero");
 const linkAbout = document.querySelector("#link-about");
 const sectionExploreAbout = document.querySelector("#section-explore-about");
 
+const linkLocation = document.querySelector("#link-location");
+const sectionExploreLocation = document.querySelector(
+  "#section-explore-location",
+);
+
 const btnExploreKits = document.querySelector("#btn_explore_kits");
+
+const btnCalculateCep = document.querySelector("#btnCalculateCep");
 
 btnExploreKits.addEventListener("click", () => exploreKits(sectionExploreKits));
 
@@ -47,6 +56,17 @@ linkAbout.addEventListener("click", (event) => {
   sectionExploreAbout.scrollIntoView({ behavior: "smooth" });
 });
 
+linkLocation.addEventListener("click", (event) => {
+  event.preventDefault();
+  sectionExploreLocation.scrollIntoView({ behavior: "smooth" });
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   initWhatsAppButton();
+});
+
+btnCalculateCep.addEventListener("click", calculateRoute);
+
+window.addEventListener("DOMContentLoaded", () => {
+  renderCompanyMap();
 });

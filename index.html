@@ -22,7 +22,10 @@
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="300" />
     <meta property="og:image:height" content="300" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css"
+    />
     <title>Verônica Festas Locações</title>
   </head>
   <body>
@@ -33,7 +36,7 @@
           <a id="link-init" href="#">Início</a>
           <a id="link-kits" href="#">Kits</a>
           <a id="link-about" href="#">Sobre nós</a>
-          <a href="#">Localização</a>
+          <a id="link-location" href="#">Localização</a>
           <a href="#">Contato</a>
         </nav>
       </div>
@@ -190,7 +193,7 @@
               </p>
               <span>
                 Mais do que alugar peças, meu propósito é ajudar a transformar
-                cada celebração em um momento único e especial
+                cada celebração em um momento único e especial.
               </span>
               <p>Com carinho,</p>
               <div class="section_about_paragraph_signature_container">
@@ -200,7 +203,71 @@
           </article>
         </div>
       </section>
+
+      <section id="section-explore-location" class="section-location">
+        <div class="section-location__content container">
+          <article class="section-location__content__left">
+            <div class="section_location_left_details">
+              <h3 class="section_location_left_top">Onde Estamos</h3>
+            </div>
+            <div class="section_location_title">
+              <h2>Estamos mais perto do que você imagina</h2>
+            </div>
+            <p>Digite seu CEP e descubra a distância da nossa loja até você.</p>
+            <div class="section-location__content__search">
+              <input
+                type="text"
+                name="cep"
+                id="searchCep"
+                placeholder="Digite seu CEP"
+              />
+              <button id="btnCalculateCep">Calcular distância &#8594;</button>
+            </div>
+            <div class="section-location__content__info">
+              <div class="section-location__content__info__route">
+                <div class="section-location__content__info__route__house">
+                  <img
+                    src="assets/location-dot-solid-full.svg"
+                    alt="icon location"
+                  />
+                  <div class="section-location__content__info__route__car">
+                    <span>Sua localização</span>
+                    <p id="userAddress"></p>
+                  </div>
+                </div>
+                <div class="section-location__content__info__route__img-car">
+                  <img src="assets/car-solid-full.svg" alt="icon car" />
+                </div>
+                <div class="section-location__content__info__route__car">
+                  <span>Nossa instituição</span>
+                  <p>
+                    Av. Vereador Otacílio Azevedo, 33 - Brejo de Beberibe -
+                    Recife/PE
+                  </p>
+                </div>
+              </div>
+              <div
+                class="section-location__content__info__route__distance-time"
+              >
+                <div>
+                  <p>Distância</p>
+                  <span id="distance"></span>
+                </div>
+                <div>
+                  <p>Tempo estimado</p>
+                  <span id="time"></span>
+                </div>
+              </div>
+            </div>
+            <p class="section-location__content__left__description-route">
+              * Valores estimados com base no trânsito atual.
+            </p>
+          </article>
+          <article id="map" class="section-location__content__right"></article>
+        </div>
+      </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
     <script type="module" src="js/script.js"></script>
   </body>
 </html>
