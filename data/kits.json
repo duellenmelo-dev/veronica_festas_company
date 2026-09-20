@@ -100,5 +100,209 @@
     "titulo": "Momentos Especiais",
     "descricao": "Um ambiente preparado para compartilhar carinho, alegria e bons momentos.",
     "categoria": "outros"
+  },
+  {
+    "image": "assets/bolo1.jpeg",
+    "titulo": "Bolo Cenográfico",
+    "descricao": "Bolo cenográfico infantil com detalhes encantadores, ideal para deixar a decoração da festa ainda mais especial.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/bolo5.jpeg",
+    "titulo": "Bolo Cenográfico",
+    "descricao": "Um bolo cenográfico alegre e delicado, ideal para compor festas infantis cheias de personalidade.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/bolo6.jpeg",
+    "titulo": "Bolo Cenográfico",
+    "descricao": "Um bolo cenográfico cheio de charme para completar a decoração e tornar a festa infantil ainda mais inesquecível.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/bolo2.jpeg",
+    "titulo": "Bolo Cenográfico",
+    "descricao": "Modelo pensado para complementar a decoração e criar um cenário encantador para as fotos da comemoração.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/bolo3.jpeg",
+    "titulo": "Bolo Cenográfico",
+    "descricao": "Elegância e delicadeza reunidas em um bolo cenográfico pensado para momentos inesquecíveis.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/bolo4.jpeg",
+    "titulo": "Bolo Cenográfico",
+    "descricao": "Um bolo cenográfico modelo elegante que combina com celebrações românticas e cheias de charme.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/arranjo1.jpeg",
+    "titulo": "Arranjo para Estrutura",
+    "descricao": "Um lindo arranjo floral delicado para trazer charme, leveza e beleza à decoração da sua celebração.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/arranjo2.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Arranjo floral sofisticado que combina beleza e delicadeza para compor diferentes estilos de decoração.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/arranjo3.jpeg",
+    "titulo": "Arranjo Retangular",
+    "descricao": "Flores cuidadosamente combinadas para criar uma composição encantadora e cheia de personalidade.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/arranjo4.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Um toque floral que valoriza a decoração e torna cada detalhe da festa ainda mais especial.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/arranjo5.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Uma linda composição floral pensada para criar equilíbrio e complementar a decoração com elegância.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/arranjo6.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Um lindo arranjo floral que traz cores, vida e delicadeza para momentos que merecem ser celebrados.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/arranjo7.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Uma composição charmosa para complementar mesas, aparadores e diferentes ambientes da sua festa.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/arranjo8.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Arranjo sofisticado para quem deseja uma decoração delicada, harmoniosa e cheia de charme.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/prataria1.jpeg",
+    "titulo": "Prataria",
+    "descricao": "Peças que ajudam a transformar a mesa da sua festa em um ambiente cheio de estilo e elegância.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/prataria2.jpeg",
+    "titulo": "Prataria",
+    "descricao": "Peças elegantes que complementam a decoração e tornam a mesa ainda mais sofisticada.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/prataria3.jpeg",
+    "titulo": "Prataria",
+    "descricao": "Bandeja de prataria selecionada para valorizar cada detalhe e deixar sua celebração ainda mais especial.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/prataria4.jpeg",
+    "titulo": "Prataria",
+    "descricao": "Lindas peças de prataria que trazem sofisticação e charme para a composição da sua mesa.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/prataria5.jpeg",
+    "titulo": "Prataria",
+    "descricao": "Ítem de prataria ideal para compor mesas especiais e receber seus convidados com muito charme.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/prataria6.jpeg",
+    "titulo": "Prataria",
+    "descricao": "Ítem de prataria que transforma a composição da mesa e deixa cada momento ainda mais especial.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/prataria7.jpeg",
+    "titulo": "Prataria",
+    "descricao": "Peças de prataria para complementar sua decoração e tornar cada celebração ainda mais elegante.",
+    "categoria": "servicos"
+  },
+  {
+    "image": "assets/decoracao1.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Uma decoração especial para tornar momentos de fé e celebração ainda mais acolhedores e memoráveis.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao2.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Uma composição delicada que harmoniza com o espaço da igreja e cria uma atmosfera especial para celebrar.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao3.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Uma decoração especial para criar um ambiente encantador e registrar momentos que ficarão na memória.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao4.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Decoração pensada para transformar o espaço e tornar cada momento ainda mais significativo.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao5.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Um cenário preparado para guardar em fotografias a alegria de uma celebração de fé compartilhada com pessoas queridas.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao6.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Um cantinho especial para registrar um dia marcado pela fé e pela presença daqueles que tornam cada momento ainda mais especial.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao7.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Cada celebração carrega uma história especial. Este cantinho foi pensado para registrar momentos de gratidão vividos nesse dia.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao8.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Um espaço acolhedor para  registrar lindos sorrisos e guardar para sempre as lembranças de uma celebração repleta de fé e emoção.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao9.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Depois de uma celebração tão importante, nada melhor do que registrar ao lado dos amigos os momentos de alegria e união.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao10.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Um cenário especial para celebrar a fé e registrar a presença das pessoas que tornam esse momento ainda mais significativo.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao11.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Um espaço pensado para transformar esses momentos de celebração em memórias que permanecerão para sempre.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao12.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Elementos delicados que harmonizam com a arquitetura da igreja e criam um ambiente bonito para celebrar momentos de fé.",
+    "categoria": "religioso"
+  },
+  {
+    "image": "assets/decoracao13.jpeg",
+    "titulo": "Arranjo Floral",
+    "descricao": "Uma composição sofisticada e delicada que valoriza o espaço da igreja, criando uma atmosfera especial para a celebração.",
+    "categoria": "religioso"
   }
 ]

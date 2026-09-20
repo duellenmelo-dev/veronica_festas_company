@@ -62,11 +62,6 @@ Olá! Gostaria de obter mais informações sobre este kit:
   });
 }
 
-export async function printAllKits(listKits) {
-  const data = await getKits();
-  printKits(data, listKits);
-}
-
 export async function filterSearchKits(filterButton, listKits) {
   const filterCategory = filterButton.dataset.filter;
   const data = await getKits();

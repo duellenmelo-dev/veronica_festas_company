@@ -34,7 +34,7 @@
         <img src="assets/logo.png" alt="logo marca" />
         <nav>
           <a id="link-init" href="#">Início</a>
-          <a id="link-kits" href="#">Kits</a>
+          <a id="link-kits" href="#">Serviços</a>
           <a id="link-about" href="#">Sobre nós</a>
           <a id="link-location" href="#">Localização</a>
           <a href="#">Contato</a>
@@ -131,10 +131,10 @@
       <section id="section-explore-kits" class="section_products">
         <div class="section_products_container container">
           <div class="section_products_details">
-            <span class="section_products_top">nossos kits</span>
+            <span class="section_products_top">nossos kits e serviços</span>
           </div>
           <div class="section_products_title">
-            <h2>Escolha o kit ideal para sua celebração</h2>
+            <h2>Escolha o kit ou serviço ideal para sua celebração</h2>
           </div>
           <div class="section_products_paragraph">
             <p>
@@ -143,14 +143,21 @@
             </p>
           </div>
           <div class="kits-filters">
-            <button class="filter-button" data-filter="todos">Todos</button>
             <button class="filter-button" data-filter="infantil">
               Festas Infantis
             </button>
             <button class="filter-button" data-filter="casamento">
               Casamentos
             </button>
-            <button class="filter-button" data-filter="outros">Outros</button>
+            <button class="filter-button" data-filter="religioso">
+              Eventos na Igreja
+            </button>
+            <button class="filter-button" data-filter="outros">
+              Outros Eventos
+            </button>
+            <button class="filter-button" data-filter="servicos">
+              Outros Serviços
+            </button>
           </div>
           <div id="listKits" class="cards"></div>
         </div>
@@ -205,8 +212,8 @@
       </section>
 
       <section id="section-explore-location" class="section-location">
-        <div class="section-location__content container">
-          <article class="section-location__content__left">
+        <div class="section-location_content container">
+          <article class="section-location_content_left">
             <div class="section_location_left_details">
               <h3 class="section_location_left_top">Onde Estamos</h3>
             </div>
@@ -214,7 +221,7 @@
               <h2>Estamos mais perto do que você imagina</h2>
             </div>
             <p>Digite seu CEP e descubra a distância da nossa loja até você.</p>
-            <div class="section-location__content__search">
+            <div class="section-location_content_search">
               <input
                 type="text"
                 name="cep"
@@ -223,32 +230,30 @@
               />
               <button id="btnCalculateCep">Calcular distância &#8594;</button>
             </div>
-            <div class="section-location__content__info">
-              <div class="section-location__content__info__route">
-                <div class="section-location__content__info__route__house">
+            <div class="section-location_content_info">
+              <div class="section-location_content_info_route">
+                <div class="section-location_content_info_route_house">
                   <img
                     src="assets/location-dot-solid-full.svg"
                     alt="icon location"
                   />
-                  <div class="section-location__content__info__route__car">
+                  <div class="section-location_content_info_route_car">
                     <span>Sua localização</span>
                     <p id="userAddress"></p>
                   </div>
                 </div>
-                <div class="section-location__content__info__route__img-car">
+                <div class="section-location_content_info_route_img-car">
                   <img src="assets/car-solid-full.svg" alt="icon car" />
                 </div>
-                <div class="section-location__content__info__route__car">
+                <div class="section-location_content_info_route_car">
                   <span>Nossa instituição</span>
                   <p>
-                    Av. Vereador Otacílio Azevedo, 33 - Brejo de Beberibe -
+                    Av. Vereador Otacílio Azevedo, 10 - Brejo de Beberibe -
                     Recife/PE
                   </p>
                 </div>
               </div>
-              <div
-                class="section-location__content__info__route__distance-time"
-              >
+              <div class="section-location_content_info_route_distance-time">
                 <div>
                   <p>Distância</p>
                   <span id="distance"></span>
@@ -259,11 +264,11 @@
                 </div>
               </div>
             </div>
-            <p class="section-location__content__left__description-route">
+            <p class="section-location_content_left_description-route">
               * Valores estimados com base no trânsito atual.
             </p>
           </article>
-          <article id="map" class="section-location__content__right"></article>
+          <article id="map" class="section-location_content_right"></article>
         </div>
       </section>
     </main>
