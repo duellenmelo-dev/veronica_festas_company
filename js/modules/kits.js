@@ -24,7 +24,7 @@ export async function loadKits(listKits) {
 
 export function printKits(kits, listKits) {
   listKits.innerHTML = "";
-  const phone = "5581997645179";
+  const phone = "5581984095579";
 
   kits.forEach((kit) => {
     const siteUrl = window.location.origin;

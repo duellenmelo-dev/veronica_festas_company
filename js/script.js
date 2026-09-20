@@ -21,6 +21,18 @@ const sectionExploreLocation = document.querySelector(
   "#section-explore-location",
 );
 
+const linkContact = document.querySelector("#link-contact");
+
+const linkServices = document.querySelector("#footer_link-services");
+const linkFooterInit = document.querySelector("#footer_link-init");
+const linkFooterAbout = document.querySelector("#footer_link-about");
+const linkFooterLocation = document.querySelector("#footer_link-location");
+const linkFooterContact = document.querySelector("#footer_link-contact");
+
+const sectionExploreContact = document.querySelector(
+  "#section-explore-contact",
+);
+
 const btnExploreKits = document.querySelector("#btn_explore_kits");
 
 const btnCalculateCep = document.querySelector("#btnCalculateCep");
@@ -69,4 +81,34 @@ btnCalculateCep.addEventListener("click", calculateRoute);
 
 window.addEventListener("DOMContentLoaded", () => {
   renderCompanyMap();
+});
+
+linkServices.addEventListener("click", (event) => {
+  event.preventDefault();
+  exploreKits(sectionExploreKits);
+});
+
+linkFooterInit.addEventListener("click", (event) => {
+  event.preventDefault();
+  sectionExploreHero.scrollIntoView({ behavior: "smooth" });
+});
+
+linkFooterAbout.addEventListener("click", (event) => {
+  event.preventDefault();
+  sectionExploreAbout.scrollIntoView({ behavior: "smooth" });
+});
+
+linkFooterLocation.addEventListener("click", (event) => {
+  event.preventDefault();
+  sectionExploreLocation.scrollIntoView({ behavior: "smooth" });
+});
+
+linkFooterContact.addEventListener("click", (event) => {
+  event.preventDefault();
+  exploreKits(sectionExploreContact);
+});
+
+linkContact.addEventListener("click", (event) => {
+  event.preventDefault();
+  exploreKits(sectionExploreContact);
 });

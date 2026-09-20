@@ -47,6 +47,21 @@ header {
   width: 20rem;
 }
 
+.header_menu-toggle {
+  display: none;
+  font-size: 2.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header_links {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+}
+
 .cabecalho nav {
   display: flex;
   gap: 3rem;
@@ -460,8 +475,6 @@ a:hover {
 }
 
 .section-location {
-  background-color: var(--gray-light);
-  color: var(--gray-dark);
   padding: 4rem;
   background-color: var(--offwhite);
 }
@@ -479,7 +492,6 @@ a:hover {
 }
 
 .section-location_content h3 {
-  color: var(--blue-medium);
   text-transform: uppercase;
 }
 
@@ -518,16 +530,14 @@ a:hover {
 .section-location_content_search input {
   padding: 1rem;
   border-radius: 5px;
-  border: 3px solid var(--gray-light);
   outline: none;
+  border: none;
   width: 15vw;
 }
 
 .section-location_content_search button {
   text-decoration: none;
   font-weight: 600;
-  color: var(--blue-light);
-  background-color: var(--blue-medium);
   padding: 1rem 3rem;
   border-radius: 10px;
   border: none;
@@ -535,7 +545,6 @@ a:hover {
 }
 
 .section-location_content_search button:hover {
-  background-color: var(--blue-dark);
   transition: 0.3s;
   cursor: pointer;
 }
@@ -593,11 +602,10 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 2rem;
-  border-top: 3px solid var(--gray-light);
+  border-top: 1px solid var(--pink-dark);
 }
 
 .section-location_content_info_route_distance-time span {
-  color: var(--blue-medium);
   font-size: 2.5rem;
   font-weight: 600;
 }
@@ -676,4 +684,56 @@ a:hover {
 
 .contact_info_paragraphy {
   margin-bottom: 2rem;
+}
+
+.footer_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.footer_top img {
+  width: 20rem;
+}
+
+.footer_info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer_info img {
+  width: 5rem;
+}
+
+.footer_links {
+  display: flex;
+  gap: 3rem;
+}
+
+footer {
+  background-color: var(--offwhite);
+}
+
+.footer_info span {
+  color: var(--pink-dark);
+  font-weight: 500;
+}
+
+.footer_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--pink-dark);
+  padding: 3rem 0;
+}
+
+.footer_bottom img {
+  width: 3rem;
+}
+
+.footer_social_media {
+  display: flex;
+  gap: 3rem;
 }

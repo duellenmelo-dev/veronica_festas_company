@@ -32,12 +32,13 @@
     <header>
       <div class="cabecalho container">
         <img src="assets/logo.png" alt="logo marca" />
-        <nav>
+        <button class="header_menu-toggle" id="menuToggle">☰</button>
+        <nav class="header_links">
           <a id="link-init" href="#">Início</a>
           <a id="link-kits" href="#">Serviços</a>
           <a id="link-about" href="#">Sobre nós</a>
           <a id="link-location" href="#">Localização</a>
-          <a href="#">Contato</a>
+          <a id="link-contact" href="#">Contato</a>
         </nav>
       </div>
     </header>
@@ -337,6 +338,44 @@
         </div>
       </section>
     </main>
+
+    <footer>
+      <div class="container">
+        <article class="footer_top">
+          <img src="assets/logo.png" alt="logo" />
+          <div class="footer_links">
+            <a id="footer_link-init" href="#">Início</a>
+            <a id="footer_link-services" href="#">Serviços</a>
+            <a id="footer_link-about" href="">Sobre nós</a>
+            <a id="footer_link-location" href="#">Localização</a>
+            <a id="footer_link-contact" href="#">Contato</a>
+          </div>
+
+          <div class="footer_info">
+            <img
+              class="footer_img_whatsapp"
+              src="assets/whatsapp.png"
+              alt="whatsapp"
+            />
+            <div>
+              <p>Fale conosco pelo Whatsapp</p>
+              <span>(81) 98409-5579</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="footer_bottom">
+          <p>
+            &copy; 2026 Verônica Festas Locações. Todos os direitos reservados.
+          </p>
+
+          <div class="footer_social_media">
+            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="assets/whatsapp.png" alt="whatsapp" /></a>
+          </div>
+        </article>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
     <script type="module" src="js/script.js"></script>
   </body>

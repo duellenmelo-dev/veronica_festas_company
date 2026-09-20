@@ -1,5 +1,5 @@
 export function initWhatsAppButton() {
-  const phone = "5581997645179";
+  const phone = "5581984095579";
   const defaultMessage = "Olá! Gostaria de mais informações sobre os serviços.";
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(
     defaultMessage,
