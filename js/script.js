@@ -37,6 +37,9 @@ const btnExploreKits = document.querySelector("#btn_explore_kits");
 
 const btnCalculateCep = document.querySelector("#btnCalculateCep");
 
+const menuToggle = document.querySelector("#menuToggle");
+const navLinks = document.querySelector(".header_links");
+
 btnExploreKits.addEventListener("click", () => exploreKits(sectionExploreKits));
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -111,4 +114,8 @@ linkFooterContact.addEventListener("click", (event) => {
 linkContact.addEventListener("click", (event) => {
   event.preventDefault();
   exploreKits(sectionExploreContact);
+});
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
 });
